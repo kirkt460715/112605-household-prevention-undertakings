@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sent-1",
+    "space": "shed",
+    "person": "resident-1",
+    "status": "delivered",
+    "day": 5
+  },
+  {
+    "id": "route-2",
+    "space": "shed",
+    "person": "resident-1",
+    "status": "assigned",
+    "day": 10
+  },
+  {
+    "id": "sent-2",
+    "person": "agent-B",
+    "for": "resident-2",
+    "scope": "common_material",
+    "status": "delivered",
+    "day": 10
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "yard-A",
+    "spaces": {
+      "shed": "resident-1",
+      "workroom": "resident-2",
+      "walkway": [
+        "resident-1",
+        "resident-2"
+      ]
+    },
+    "owner": "owner-1"
+  },
+  {
+    "id": "change-A",
+    "space": "shed",
+    "holder": "resident-3",
+    "from_day": 9,
+    "registered_day": 11
+  },
+  {
+    "id": "proxy-a",
+    "owner": "resident-1",
+    "agent": "agent-A",
+    "may": [
+      "material_receipt",
+      "shed_undertaking"
+    ],
+    "start": 1,
+    "revoked_day": 8
+  },
+  {
+    "id": "proxy-b",
+    "owner": "resident-2",
+    "agent": "agent-B",
+    "may": [
+      "material_receipt"
+    ],
+    "start": 1
+  }
+]

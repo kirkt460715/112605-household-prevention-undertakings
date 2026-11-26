@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rules-1",
+    "version": 1,
+    "applies": [
+      "shed_undertaking",
+      "shared_access",
+      "common_material"
+    ]
+  },
+  {
+    "id": "rules-2",
+    "version": 2,
+    "changes": [
+      "shed_undertaking"
+    ],
+    "effective_day": 10
+  },
+  {
+    "id": "signed-6",
+    "agent": "agent-A",
+    "on_behalf": "resident-1",
+    "scope": [
+      "shed_undertaking"
+    ],
+    "signed_day": 6,
+    "received_day": 11,
+    "version": 1
+  },
+  {
+    "id": "signed-X",
+    "agent": "agent-A",
+    "on_behalf": "resident-1",
+    "scope": [
+      "shed_undertaking"
+    ],
+    "signed_day": null,
+    "received_day": 12,
+    "version": 2
+  }
+]
